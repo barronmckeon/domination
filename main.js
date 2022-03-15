@@ -9,9 +9,9 @@ lineThrough()
 
 
 function setImage(imageId, imgUrl){
-let imageId = document.querySelector(imageId);
-imageId.source = imgUrl;
-imageId.height = "300";
+let image1 = document.querySelector(imageId);
+image1.source = imgUrl;
+image1.height = "300";
 }
 // ( id name ,  source  )
 setImage("#image-1", "https://cdn.mos.cms.futurecdn.net/3tnBvrq3tECAKK7gWMAYTF-1024-80.jpg.webp")
